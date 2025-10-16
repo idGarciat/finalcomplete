@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:finalcomplete/otros/producto_screen.dart';
+import 'package:finalcomplete/otros/division_screen.dart';
 
 class OtrosScreen extends StatelessWidget {
   @override
@@ -27,8 +28,9 @@ class OtrosScreen extends StatelessWidget {
             ElevatedButton(
               child: const Text('División'),
               onPressed: () {
-                ScaffoldMessenger.of(context).showSnackBar(
-                  const SnackBar(content: Text('Botón de División presionado')),
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => DivisionScreen()),
                 );
               },
             ),
