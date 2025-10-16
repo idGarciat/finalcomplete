@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:finalcomplete/producto_screen.dart';
 
 class OtrosScreen extends StatelessWidget {
   @override
@@ -8,7 +9,22 @@ class OtrosScreen extends StatelessWidget {
         title: Text('Otros'),
       ),
       body: Center(
-        child: Text('Bienvenido a Otros'),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text('Otras weas'),
+            const SizedBox(height: 20),
+            ElevatedButton(
+              child: const Text('Producto'),
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => ProductoScreen()),
+                );
+              },
+            ),
+          ],
+        ),
       ),
     );
   }

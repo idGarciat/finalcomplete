@@ -40,7 +40,7 @@ class MyHomePage extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 ElevatedButton(
-                    child: const Text('Calculadora'),
+                    child: const Text('Calculadora de numeros complejos'),
                     onPressed: () =>
                         Navigator.of(context).pushNamed('/details1')),
                 const SizedBox(height: 10),
