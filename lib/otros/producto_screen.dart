@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:finalcomplete/otros_producto.dart';
+import 'package:finalcomplete/otros/otros_producto.dart';
 
 class ProductoScreen extends StatefulWidget {
   @override

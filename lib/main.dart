@@ -4,7 +4,7 @@ import 'package:finalcomplete/calculadora_screen.dart';
 import 'package:finalcomplete/graficos_screen.dart';
 import 'package:finalcomplete/basedatos_screen.dart';
 import 'package:finalcomplete/webservices_screen.dart';
-import 'package:finalcomplete/otros_screen.dart';
+import 'package:finalcomplete/otros/otros_screen.dart';
 
 void main() {
   runApp(const Principal());
